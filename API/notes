@@ -1,0 +1,21 @@
+1. We need to understand the requirement at hand.
+
+Daily accurate percentage profit = 0.0526 | 5.26% 
+
+Notes:
+    An investment is made by a person into the application.
+    The app has 2 games (Evening | Morning).
+
+    the percentage profit per day is set to 5.62% of the investment.
+    Tweak.
+        The percentage is split into 2 un-even parts that are given on the 
+        2 matches provided in the day, both parts put together will make it 
+        5.16% the profit of a changing account balance.
+
+    Approach:
+        we need to create 2 functions, morning and evening profit calculator functions.
+        The morning percentage given is calculated and added onto the account balance, 
+        the new account balance is then used to calculate the new profit, the new profit based off 
+        the new profit is then added onto the account balance to give the total daily account balance.
+
+        let's have a function to calculate the morning profit.
